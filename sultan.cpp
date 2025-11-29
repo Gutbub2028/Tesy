@@ -1,5 +1,5 @@
 #include <iostream>
-int main (){
+int main(){
 int age = 50;
 bool student = true;
 char grade = 'C';
