@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yemen Flag (CSS)</title>
+  <link rel="stylesheet" href="yemen.css">
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial; padding: 24px; }
+    .row { display:flex; gap:24px; align-items:center; flex-wrap:wrap }
+  </style>
+</head>
+<body>
+  <h1>Yemen Flag (pure CSS)</h1>
+  <p>Yemen flag: three equal horizontal stripes — red (top), white (middle), black (bottom).</p>
+
+  <div class="label">Default size:</div>
+  <div class="row">
+    <div class="flag" role="img" aria-label="Flag of Yemen">
+      <div class="red"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+    </div>
+  </div>
+
+  <div class="label">Small / Large / Full width examples:</div>
+  <div class="row">
+    <div>
+      <div class="flag small" role="img" aria-label="Small flag of Yemen">
+        <div class="red"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+      </div>
+      <div style="text-align:center; font-size:12px; margin-top:6px;">Small</div>
+    </div>
+
+    <div>
+      <div class="flag large" role="img" aria-label="Large flag of Yemen">
+        <div class="red"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+      </div>
+      <div style="text-align:center; font-size:12px; margin-top:6px;">Large</div>
+    </div>
+
+    <div style="flex:1">
+      <div class="flag full" role="img" aria-label="Full width flag of Yemen">
+        <div class="red"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+      </div>
+      <div style="text-align:center; font-size:12px; margin-top:6px;">Full (max-width 720px)</div>
+    </div>
+  </div>
+
+  <hr style="margin:24px 0">
+  <p>Copy the HTML structure and the CSS rules in `yemen.css` into your project where you need the flag.</p>
+</body>
+</html>

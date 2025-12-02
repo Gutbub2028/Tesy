@@ -1,0 +1,18 @@
+.main {
+    background: darkkhaki;
+    color: aqua;
+    font-size: medium;
+    font-weight: 100;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+.k {
+    width: 706px;
+    display: block;
+    margin-top: 60px;
+}
+
+/*display له نوعين بلوم يعني تحت بعض و ان لاين جنب بعض
+/ للربط كل الاشياء نضع مع الديف كلاس و نسميه*margin-(left.right....)يعني المسافة */
